@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 x:Class="MagicDemo.Common.PopUpPage">
+    <StackLayout Orientation="Vertical" Padding="10" VerticalOptions="EndAndExpand" HeightRequest="100">
+            <Frame BackgroundColor="LightGray"
+                   HasShadow="True">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                  <Label x:Name="isValidLabel" FontSize="Medium" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+                    <Image x:Name="isValidIcon" HeightRequest="30"></Image>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+</pages:PopupPage>

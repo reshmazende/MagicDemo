@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MagicDemo.MainPage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Magic-Software-Demo!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+        </Frame>
+        <Button x:Name="btnclick" Text="Press Me" Clicked="btn_clicked" Margin="0,150,0,0" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="#2196F3" TextColor="White"/>
+        <Label x:Name="currentLoc" LineBreakMode="WordWrap" Padding="10,20,10,0" HorizontalTextAlignment="Center"></Label>
+    </StackLayout>
+</ContentPage>
